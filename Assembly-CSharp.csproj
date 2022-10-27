@@ -58,11 +58,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\EndGame.cs" />
+     <Compile Include="Assets\Scripts\FinishGate.cs" />
      <Compile Include="Assets\Scripts\ItemCollect.cs" />
      <Compile Include="Assets\Scripts\MovePlatform.cs" />
      <Compile Include="Assets\Scripts\PlayerLife.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Rotation.cs" />
+     <Compile Include="Assets\Scripts\Shake.cs" />
+     <Compile Include="Assets\Scripts\StartGame.cs" />
      <Compile Include="Assets\Scripts\StickyPlatform.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/MyProject/UnityTry/3dTry/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

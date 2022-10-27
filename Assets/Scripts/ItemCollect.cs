@@ -14,10 +14,8 @@ public class ItemCollect : MonoBehaviour
     // Update is called once per frame
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("in trigger");
         if (other.gameObject.CompareTag("Coin"))
         {
-            Debug.Log("compared");
             Destroy(other.gameObject);
             coins++;
             collectText.text = "coins: " + coins;
